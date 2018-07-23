@@ -16,7 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="header-container">
+        <div className="header-container scroll-zero">
           <Header />
         </div>
         <div className="content-container">
