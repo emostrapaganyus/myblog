@@ -1,3 +1,7 @@
+*{
+  transition: all ease-in-out .6s;
+}
+
 .header-container {
   width: 100%;
 }
@@ -35,6 +39,24 @@
 
 .header-container.scrolled {
   height: 70px;
+  border-bottom: 2px inset;
+  float: left;
+  display: table;
+
+  .navigation-cont{
+    margin-bottom: 0;
+    vertical-align: bottom;
+    display: table-cell;
+
+    .nav-list{
+      border: none;
+      border-bottom: 1px solid;
+
+      li{
+        padding-left: 30px;
+      }
+    }
+  }
 
   .logo-container {
     width: 100%;
