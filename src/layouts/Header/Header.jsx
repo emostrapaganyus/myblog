@@ -8,10 +8,12 @@ class Home extends React.Component {
     return (
       <div>
         <div className="logo-container">
+        <div className="logo-border">
           <img src={require("../../common/images/blog-logo.png")} draggable="false" />
+          </div>
           <blockquote>
             <i>
-              İçinde her an her şey olabilecek,<br />&nbsp;&nbsp; şahsımın kendisine ait blog sitesine hoşgeldin!
+              İçinde her an her şey olabilecek,<br />&nbsp;&nbsp; şahsımın kendisine ait blog sitesi!
             </i>
           </blockquote>
         </div>
